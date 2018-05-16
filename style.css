@@ -1,0 +1,93 @@
+
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  background-image: url('60089.jpg');
+  background-position: center top;
+  background-size: cover;
+   background-repeat: no-repeat;
+  margin: 0;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  font-family: 'Kavivanar', cursive;
+}
+
+.page-description {
+  font-size: 3.25vw;
+  font-family: 'Kavivanar', cursive;
+  max-width: 1000px;
+  min-width: auto;
+  margin: 2px;
+  text-align: left;
+  padding: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+
+.gallery {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 40px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid white
+}
+
+/* FOOTER NAVIGATION */
+
+
+
+.contact-btn {
+  float: right;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position: relative;
+
+}
+
+.contact-btn a:active {
+    top: 2px;
+
+}
+
+
+#firstsong {
+  margin-left: 210px;
+  margin-top: -20px;
+}
+
+.nextsong {
+  margin-left: 85px;
+  margin-top: -20px;
+}
